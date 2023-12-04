@@ -1,0 +1,24 @@
+.ordersCon{
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+}
+.order{
+    text-align: center;
+}
+.orderTable{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: lightblue;
+    margin-bottom: 10%;
+}
+th, td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;
+    text-overflow: ellipsis;
+  }
+  td:first-child {
+    /* Set the width of the first column */
+    width: 60%;
+  }  
